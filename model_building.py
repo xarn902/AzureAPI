@@ -2,7 +2,7 @@ import os
 import numpy as np 
 import tensorflow as tf  
 
-## Data Vectors f(x)=x*2-1
+## Data Vectors f(x)=2*x-1
 xs = np.array([-1.0,  0.0, 1.0, 2.0, 3.0, 4.0], dtype=float) 
 ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)  
 
