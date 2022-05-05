@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 CONTAINER_REGISTRY_NAME=azuremlapidemo #REPLACE with azure registry name (lower letters only)
 sudo az login #login to Azure
 sudo az acr login --name "$CONTAINER_REGISTRY_NAME" 
